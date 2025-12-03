@@ -32,16 +32,16 @@ Expected output:
 
 ### 3. Setup GitHub Pages Registry
 
-- Create a new branch `gh-pages`
-- Push the `registry/registry.json` to that branch
-- Enable GitHub Pages in repository settings
-- Access registry at: `https://<your-org>.github.io/mcp-poc/registry/registry.json`
+- Create a new branch `gh-pages` ✅ Done
+- Push the `registry/registry.json` to that branch ✅ Done
+- Enable GitHub Pages in repository settings ✅ Done
+- Access registry at: `https://knackforge-inc.github.io/mcp-poc/registry/registry.json`
 
 ### 4. Register in GitHub Organization
 
 1. Go to GitHub Organization Settings
 2. Navigate to **Code & Automation → MCP Registry URL**
-3. Add: `https://<your-org>.github.io/mcp-poc/registry/registry.json`
+3. Add: `https://knackforge-inc.github.io/mcp-poc/registry/registry.json`
 
 ### 5. Run GitHub Actions Workflow
 

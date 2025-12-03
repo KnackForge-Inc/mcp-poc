@@ -25,4 +25,4 @@ jobs:
 
       - name: Validate MCP registry JSON
         run: |
-          curl -s https://<your-org>.github.io/mcp-poc/registry/registry.json | jq .
+          curl -s https://knackforge-inc.github.io/mcp-poc/registry/registry.json | jq .
