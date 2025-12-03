@@ -1,0 +1,19 @@
+{
+  "version": "1.0",
+  "servers": [
+    {
+      "id": "python-mcp-demo",
+      "name": "Python MCP Demo Server",
+      "description": "Simple MCP server that exposes reverse_text tool",
+      "entrypoint": {
+        "command": "python3",
+        "args": ["server.py"]
+      },
+      "env": {},
+      "permissions": {
+        "network": false,
+        "filesystem": []
+      }
+    }
+  ]
+}
